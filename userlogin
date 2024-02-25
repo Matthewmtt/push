@@ -1,0 +1,14 @@
+import 'package:hive_flutter/hive_flutter.dart';
+
+part 'userlogin.g.dart';
+
+@HiveType(typeId: 0)
+class UserLogin{
+  @HiveField(0)
+  final String username;
+  @HiveField(1)
+  final String email;
+  @HiveField(2)
+  final String pass;
+  const UserLogin({ required this.username,required this.email,required this.pass});
+}
