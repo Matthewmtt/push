@@ -1,0 +1,9 @@
+python-telegram-bot
+pydub
+SpeechRecognition
+apscheduler
+transformers
+deep-translator
+nest-asyncio
+
+
