@@ -5,3 +5,5 @@ apscheduler
 transformers
 deep-translator
 nest-asyncio
+python-dotenv
+
